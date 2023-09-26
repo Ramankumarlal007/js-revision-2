@@ -6,7 +6,7 @@ ans:-  if we give .js to the file , the software recognizes it easily.
 
 node.js deno.js  :- Ryan Dahl
 
- ***01_basics
+ ***01_basics***
 Q2. let , Var and const?
 const : values in  const cannot be changed.
 let 
@@ -33,7 +33,7 @@ console.table([accountEmail,accountId,accountPassword,accountCity,accountState])
 └─────────┴─────────────────────┘
 
 
-**Datatypes in js
+***Datatypes in js***
 
 ECMA makesa  standard and specification for writing the js
 tc39 and mdn
