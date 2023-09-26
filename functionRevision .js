@@ -1,3 +1,4 @@
-function (...number){
-return {''}
-};
+function name(params) {
+    
+}
+
