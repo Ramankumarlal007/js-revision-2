@@ -20,5 +20,10 @@ let isLOggedIn = " ";
 
 let booleanValue = Boolean(isLOggedIn);
 
-console.log(typeof booleanValue);
-console.log(booleanValue);
+// console.log(typeof booleanValue);
+// console.log(booleanValue);
+
+let somenumner = 85;
+let stringConverion = String(somenumner);
+console.log(stringConverion);
+console.log(typeof stringConverion);

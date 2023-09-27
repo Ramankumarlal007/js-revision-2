@@ -51,3 +51,47 @@ bigInt   2 to power 53
 
 console.log(typeof age); 
 
+***conversion***
+
+let score = "52anf";
+
+console.log(typeof score); //string
+console.log(typeof (score)); //string
+
+//to exclusively get number onle we use the below
+
+let valueInNUmber = Number(score);
+console.log(typeof valueInNUmber); //number
+console.log(valueInNUmber);  //NaN
+
+//"52" => 52
+//54fgg => nan
+//true = > 1 false = 0
+//undefined => undefined , nan
+// null => 0
+
+// 1 => true, 0 => false
+//""  false , "lkdsnfnd" => true
+
+
+let somenumber = 85;
+let stringConverion = String(somenumner);
+console.log(stringConverion);
+console.log(typeof stringConverion); 
+
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter);
+
+prefix
+postfix
+
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+=== it cks datatype also
+
+
+
