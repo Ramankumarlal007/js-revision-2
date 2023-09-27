@@ -94,4 +94,10 @@ console.log(null >= 0);
 === it cks datatype also
 
 
+***datatype summary***
+2 types only on the basis by which these are stored in the memory and the way by which they are alllocated
+the way by which data is stored in the memory and how it is accessed from the memory :- 2 categories are defined 
+primitive and non-primitive data type
+
+
 
