@@ -100,4 +100,49 @@ the way by which data is stored in the memory and how it is accessed from the me
 primitive and non-primitive data type
 
 
+***stack and heap memory***
+2 types of memory r their ; 
+stack and heap memory
+
+ stack memory (primitive)  copy of original value is given
+ heap memory   (non-primitive)  reference of original value is given 
+
+
+primitive data type example :copy is given
+
+let myyoutubechannel = "raman@youtube.com";
+let anotheryoutubeChannnel = myyoutubechannel;
+
+anotheryoutubeChannnel = "rishabh@youtube.com";
+
+console.log(myyoutubechannel);
+console.log(anotheryoutubeChannnel);
+
+***heap memory   (non-primitive)  reference of original value is given ***
+
+
+
+***string*** 
+''  , "" 
+
+please go through the entire methods of string present on browser
+
+***math***
+
+const min = 10;
+const max = 20;  
+
+console.log(Math.floor(Math.random()* (max - min +1 ))+ min);
+
+
+***dates***
+
+JavaScript Date objects represent a single moment in time in a platform-independent format. Date objects encapsulate an integral number that represents milliseconds since the midnight at the beginning of January 1, 1970, UTC (the epoch).
+
+***array***
+JavaScript array-copy operations create shallow copies. (All standard built-in copy operations with any JavaScript objects create shallow copies, rather than deep copies).
+
+A shallow copy of an object is a copy whose properties share the same references (point to the same underlying values) as those of the source object from which the copy was made. As a result, when you change either the source or the copy, you may also cause the other object to change too. That behavior contrasts with the behavior of a deep copy, in which the source and copy are completely independent.
+
+
 
