@@ -71,5 +71,61 @@
     
     <h1>Call Stack</h1>
     <img src="./images/6.jpg" alt="" srcset="">
+
+    <div>
+        <h1>null and undefined</h1>
+        <p>
+            In JavaScript, both `null` and `undefined` are special values used to represent the absence of a meaningful value. However, they are used in slightly different contexts and have some distinctions:
+
+1. `undefined`:
+   - `undefined` is a primitive data type in JavaScript.
+   - A variable that has been declared but has not been assigned a value automatically has the value `undefined`. For example:
+
+   ```javascript
+   let x;
+   console.log(x); // Outputs: undefined
+   ```
+
+   - Function parameters that have not been provided with an argument also have the value `undefined`.
+
+   ```javascript
+   function example(a) {
+       console.log(a); // Outputs: undefined
+   }
+   example();
+   ```
+
+   - It can also occur as the return value of a function that does not explicitly return anything.
+
+   ```javascript
+   function doSomething() {}
+   let result = doSomething();
+   console.log(result); // Outputs: undefined
+   ```
+
+2. `null`:
+   - `null` is an intentional value that represents the absence of any object or value. It is often used to indicate that a variable should be empty or not pointing to any object.
+   - Unlike `undefined`, `null` is explicitly assigned to a variable.
+
+   ```javascript
+   let y = null;
+   console.log(y); // Outputs: null
+   ```
+
+   - It can be used to reset or clear a variable that previously held an object or value.
+
+   ```javascript
+   let data = getDataFromAPI();
+   // After using the data, you may want to clear it:
+   data = null;
+   ```
+
+   - `null` is not the same as an empty object, an empty array, or a non-existent property. It represents the absence of any object or value.
+
+In summary, `undefined` is often the default value for uninitialized variables and function parameters, while `null` is typically used to explicitly indicate the absence of a value or to reset a variable that previously held a value. Understanding when and how to use them is important for writing clean and error-free JavaScript code.
+        </p>
+    </div>
+
+    <div><img src="./images/7.jpg" alt="" srcset=""></div>
 </body>
 </html>
