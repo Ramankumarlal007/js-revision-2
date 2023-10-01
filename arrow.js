@@ -42,8 +42,12 @@ const addThree = (num1, num2) =>  (num1 + num2)   //in case of () return is not 
 console.log(addTwo(15, 5));
 
 
-//object return in implicit
+//object return in implicit 
+//() is required for an object to get executed in function simply using {} scope cannot be used.s
+
 const denim = (num1, num2) => ({username: "kairav"})
+
+console.log(denim(2,2));
 
 const addThree1 = (...num1) => num1.reduce((acc, curr) => acc + curr, 0);
 

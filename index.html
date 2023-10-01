@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How does js works behind the scene</title>
+</head>
+<body>
+    
+    <h1> javascript execution Context</h1>
+    <p>javascript execution Context means how does code get execute in a js/ bhow your js file will get executed. for this js runs ur progrm in 2 phases </p>
+ 
+    <h1> in 2 phases execution of js occurs</h1>
+    <ul>
+        <li>Memory creation phase / creation phase : spaces r allocated to the variable here these are not executed</li>
+        <li>Execution Phase : execution occurs here</li>
+    </ul> 
+
+    <img src="./images/2.jpg" alt="" srcset="">
+    <h3>whenever we give a code to js GEC is formed as sure{} ----> global execution context-- this </h3>
+    <p>As per the environment (browser/node environment) the value of this is different. in browser object the value of this is window object.</p>
+    <h1>Types of execution context</h1>
+    <ul>
+        
+        <li>Global execution/environment Context ; represented by "this",. "this"  will there</li>
+        <li>Function execution Context</li>
+        <li>Eval execution Context : this is the property of global object</li>
+        
+    </ul>
+    <img src="./1.jpg" alt="" srcset="">
+
+  
+    <pre>
+        let val1 = 10;
+        let val2 = 5;
+        function addNum(num1, num2) {
+            let total = num1 + num2
+            return total
+        }
+        let result1 = addNum(val1, val2);
+        let result2 = addNum(12,52)
+    </pre>
+
+
+
+
+
+
+    <script>
+        let val1 = 10;
+        let val2 = 5;
+        function addNum(num1, num2) {
+            let total = num1 + num2
+            return total
+        }
+        let result1 = addNum(val1, val2);
+        let result2 = addNum(12,52)
+    </script>
+
+    <img src="./images/3.jpg" alt="" srcset="">
+    <h3> for the function nothing will happen as it is already defined </h3>
+    <p>for addNum new memory phase and execution phase is developed. note:- jitnni bar ye function execute hotay hai utni bar new memory phase and execution phase banta hai</p>
+    <p>let result1 = addNum(val1, val2); we have to see for the function otherwise mistake happens;</p>
+    <pre> function addNum(num1, num2) {
+        let total = num1 + num2
+        return total //total after execution from function is returned to GEC after return the formed memory an dexecution phase is deleted see in fig below
+    }</pre>
+    <img src="./images/4.jpg" alt="" srcset="">
+    <h3>for result2 also same will happen</h3>
+    <img src="./images/5.jpg" alt="" srcset="">
+    
+    <h1>Call Stack</h1>
+    <img src="./images/6.jpg" alt="" srcset="">
+</body>
+</html>
