@@ -148,3 +148,6 @@ A shallow copy of an object is a copy whose properties share the same references
 ***destructuring***  i
 is applicable on object and also on array
 
+***How does js works behind the scene***
+
+**execution context, call stack**
