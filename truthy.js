@@ -42,7 +42,7 @@ if (Object.keys(emptyArray).length === 0) {
 
 
 // it cks the saftey ck in condition of null/undefined
-//it is helpul in case of value scoming rom api , dat base , appwrite
+//it is helpul in case of value coming from api , dat base , appwrite
 let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 12

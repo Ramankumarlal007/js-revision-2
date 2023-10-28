@@ -25,7 +25,7 @@ do {
     console.log(`Score of Indian cricket team is ${score}`);
     score ++
 } while (score <= 10)
- 
+
 
 
 
