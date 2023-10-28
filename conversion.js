@@ -1,14 +1,15 @@
 // let score = null;
 
-// console.log(typeof score); //string
-// console.log(typeof (score)); //string
+// console.log(score); null
+// console.log(typeof score); //object
+// console.log(typeof (score)); //object
 
 // //to exclusively get number onle we use the below
 
 // let valueInNUmber = Number(score);
 
 // console.log(typeof valueInNUmber); //number
-// console.log(valueInNUmber);  //NaN
+// console.log(valueInNUmber);  //0
 
 //"52" => 52
 //54fgg => nan
@@ -25,5 +26,5 @@ let booleanValue = Boolean(isLOggedIn);
 
 let somenumner = 85;
 let stringConverion = String(somenumner);
-console.log(stringConverion);
-console.log(typeof stringConverion);
+console.log(stringConverion); //85
+console.log(typeof stringConverion); //string

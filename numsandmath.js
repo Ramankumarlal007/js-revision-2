@@ -8,7 +8,7 @@ let numberScore = Number (score); //400
 
 let scoree = new Number (700);
 
-// console.log(scoree);  //[Number: 500]
+// console.log(scoree);  //[Number: 500], Number {700}
 
 // console.log(scoree.toString().length);
 // console.log(scoree.toFixed(2)); //700.00

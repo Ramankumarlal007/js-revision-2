@@ -38,7 +38,7 @@ let object = {
     age1 : 2,
 }
 
-const  myfunctionExample = function s(object) {
+const  myfunctionExample = function(object) {
     console.log(object);
     console.table(object);
 };

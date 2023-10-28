@@ -51,6 +51,8 @@ const obj14 = { 7: "e", 8: "f" };
 let obj9 = { obj13, obj14 };
 // console.log(obj9);
 
+
+
 const obj10 = Object.assign({}, obj13, obj14)
 // console.log(obj10);
 
@@ -83,10 +85,16 @@ const users = [
 
 // console.log(Object.keys(twitterUser));
 // console.log(Object.values(twitterUser));
+
 // console.log(Object.entries(twitterUser));
+//The Object.entries() method is used to convert an object into an array of its own enumerable property [key, value] pairs. 
+// console.log(twitterUser);
+// console.log(twitterUser["age"]);
+// let entries = Object.entries(twitterUser)[0]
+// console.log(entries);
 
 // console.log(tinderUser.hasOwnProperty('islogged'));
-
+//hasOwnProperty: Determines whether an object has a property with the specified name.
 
 const course = {
     coursename: "js in hindi",
@@ -95,7 +103,7 @@ const course = {
 }
 //course.courseInstructor
 
-// const {courseInstructor } = course
+// const {courseInstructor (kya value lena hai :key)} = course(kaha se value lena hahi)
 
 const {courseInstructor : instructor} = course
 

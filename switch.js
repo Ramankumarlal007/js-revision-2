@@ -30,7 +30,9 @@ switch (month) {
     }
         break;
 }
-
+setInterval(() => {
+    
+}, 2000);
 //break is important to give, otherwise after executing the desired match code it will execute the entire fall through except the default value
 
 

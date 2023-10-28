@@ -3,7 +3,7 @@
 
 //object literals  example is below
 let mySym = Symbol("MickyMouse") 
-
+// The "MickyMouse" description is just for your reference and doesn't affect the value associated with the Symbol.
 
 const JsUser = {
     name: "Rishabh Yadav", // keys are actually string, values can be anything
@@ -30,7 +30,7 @@ Object.freeze(JsUser) // this freezesn the obvj
 const mytSymbol = Symbol("key1")
 
 // console.log(JsUser.mySym);// this is not corrct  (undefined)
-// console.log(JsUser[mySym]);
+// console.log(JsUser[mySym]); //mykey1
 
 
 

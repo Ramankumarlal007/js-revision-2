@@ -1,5 +1,5 @@
 // Immediately invoked function expression
-//it is used to avoid polluting of th function from the global variable from the global scope  and also to immediately execute the function when the data base connection starts. atleast for this function 
+//it is used to avoid polluting of the function from the global variable from the global scope  and also to immediately execute the function when the data base connection starts. atleast for this function 
 
 
 // ()() iife
@@ -10,7 +10,7 @@ console.log(denim(2,2)); //{ username: 'kairav' }
 //Named IIFE example//
 (function chai() {
     console.log(`Database connected`);
-})(); // important ; is reuired to be given for the below iife to work properly . ; is required for the iife to get stop execution 
+})(); // important ; is required to be given for the below iife to work properly . ; is required for the iife to get stop execution 
 
 //arrow functionas iife / unnamed  iife
 

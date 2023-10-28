@@ -10,21 +10,22 @@ const gameNAme = new String ('Rishabh Yadav');
 // console.log(gameNAme);
 
 // console.log(gameNAme[2]);
-// console.log(gameNAme.__proto__);
+// console.log(gameNAme.__proto__); //{}
 // console.log(gameNAme.length);
 console.log(gameNAme.toUpperCase());
 
-// changing to uppercase doesn't changes the original string as it is ptresent in stack memory. her copy of original value is provided.
+// changing to uppercase doesn't changes the original string as it is present in stack memory. her copy of original value is provided.
 
-//to know at twaht position what character uis present we use charAT()
+//to know at what position what character is present we use charAT()
 
-// console.log(gameNAme.charAt(5));
+// console.log(gameNAme.charAt(5));  
 // console.log(gameNAme.indexOf('Y'));
 
 
 
 const gameNAmeOne = new String ('Rishabh-Yadav');
 // console.log(gameNAmeOne.substring(1,4));
+
 //we cannot give negative values in substring. negative value canbe given in sliceS
 
 let anotherString = gameNAmeOne.slice(3, 5);
@@ -48,7 +49,9 @@ console.log(url.includes('choudhary'));
 let childNAme = "Rishabh kumar yadav"
 console.log(childNAme.split(' '));
 
+let String = "The prototype specifies the methods and properties that can be accessed"
 
+console.log(String.split(' '));
 
 
 

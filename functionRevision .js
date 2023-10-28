@@ -37,7 +37,7 @@ console.log(loginUserName("ritu"));
 
 
 function calculateCardPrice(val1, val2, ...num1) {
-    return [val1 , num1]
+    return [val1 ,val2, num1]
 }
 console.log(calculateCardPrice(200, 5, 123,47,245,458,524));
 
@@ -56,7 +56,7 @@ function AmazonShopping(anyObject) {
 console.log(AmazonShopping(cartItem));
 
 //directly putting the object
-let AmazonShoppingList = AmazonShopping(
+let AmazonShoppingList = (
     {
         product: "macairbook pro",
         price : 2000

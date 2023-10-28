@@ -3,7 +3,7 @@
 function chai() {
     console.log(this);  
 }
-// chai() //all entire value
+chai() //all entire value
 
 function coffee() {
     let username = "Raman"

@@ -56,6 +56,7 @@ addOne()
 
  //this is expression
  addTwo(25) // here in expression function  is not accesssible
+ //Cannot access 'addTwo' before initialization
 let addTwo = function (num) {
 return num + 5
 }
